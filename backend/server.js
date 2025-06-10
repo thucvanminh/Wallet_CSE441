@@ -59,9 +59,6 @@ async function initDB() {
 
 
 //////////////////////
-app.get("/", (req, res) => {
-    res.send("It works!");
-})
 
 app.use("/api/transactions",transactionsRoute);
 // app.use("/api/products",transactionsRoute);
